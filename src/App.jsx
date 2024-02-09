@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import FrontPage from "./page/FrontPage.jsx"
+import BackPage from './page/BackPage.jsx';
 
 const App = () => {
   return (
     <div>
-      Hello world
+      <FrontPage/>
+      <BackPage/>
     </div>
   )
 }
