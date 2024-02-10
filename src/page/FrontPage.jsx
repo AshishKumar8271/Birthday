@@ -1,13 +1,11 @@
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { openPage } from '../Features/userSlice.jsx';
 
 const FrontPage = () => {
-  const {pageValue} = useSelector((state) => state.birthdaySlice)
-  console.log(pageValue);
 
   const dispatch = useDispatch();
   return (
-    <div className={`bg-[bisque] min-h-screen p-5 pt-12 flex flex-col items-center justify-center ${pageValue && "hidden"}`}>
+    <div className="bg-[bisque] min-h-screen p-5 pt-12 flex flex-col items-center justify-center">
       <img src="/img/laddi.png" className='' alt="" />
       <div>
         <p className='text-center mt-5 font-semibold text-pink-700'>Birthday party Invitation by</p>

@@ -5,12 +5,12 @@ import BackPage from "./page/BackPage.jsx";
 
 const App = () => {
   const { pageValue } = useSelector((state) => state.birthdaySlice);
-  return (
+
+  return(
     <div>
-      <FrontPage />
-      {pageValue && <BackPage />}
+      { pageValue ? <BackPage />: <FrontPage />}
     </div>
-  );
+  )
 };
 
 export default App;

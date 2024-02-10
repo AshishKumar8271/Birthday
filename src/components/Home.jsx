@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import ConfettiExplosion from "react-confetti-explosion";
 
 // import lydia from "../public/img/lydia.png";
 import lydia2 from "../public/img/lydia2.png";
@@ -14,6 +15,7 @@ const Home = () => {
       <div className="six">
         <motion.img
           animate={{ rotateZ: 360 }}
+          transition={{ duration: 2, ease: "easeInOut" }}
           src={lydia2}
           alt=""
           className="lydia-dp"

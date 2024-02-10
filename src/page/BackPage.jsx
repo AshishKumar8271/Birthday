@@ -1,11 +1,10 @@
-import {useSelector } from 'react-redux';
+import { useState } from 'react';
 import Home from '../components/Home';
 
 const BackPage = () => {
-  const {pageValue} = useSelector((state)=> state.birthdaySlice);
-  console.log(pageValue);
+
   return (
-    <div className={`${!pageValue && "hidden"}`}>
+    <div className="">
       <Home />
     </div>
   )
