@@ -2,7 +2,6 @@ import { useDispatch } from 'react-redux';
 import { openPage } from '../Features/userSlice.jsx';
 
 const FrontPage = () => {
-
   const dispatch = useDispatch();
   return (
     <div className="bg-[bisque] min-h-screen p-5 pt-12 flex flex-col items-center justify-center">

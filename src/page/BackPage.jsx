@@ -1,10 +1,8 @@
 import Home from '../components/Home';
 
 const BackPage = () => {
-
   return (
-    <div className="">
-
+    <div>
       <Home />
     </div>
   )

@@ -265,6 +265,25 @@ html {
     .box {
       width: 90%;
     }
+
+    @media screen and (max-width: 768px) {
+      .baloons img {
+        width: 100px; 
+        height: auto; 
+      }
+    
+      .baloons img:nth-child(even) {
+        left: -5%;
+      }
+    
+      .baloons img:nth-child(odd) {
+        right: -5%;
+      }
+    
+      .baloons img:nth-child(3n + 0) {
+        left: 15%;
+      }
+    }
   
     .four .text-box {
       width: 90%;
