@@ -7,8 +7,7 @@ const App = () => {
   const { pageValue } = useSelector((state) => state.birthdaySlice);
   return (
     <div>
-      <FrontPage />
-      {pageValue && <BackPage />}
+      { pageValue ? <BackPage />: <FrontPage />}
     </div>
   );
 };

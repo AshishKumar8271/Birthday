@@ -3,8 +3,6 @@ import { openPage } from '../Features/userSlice.jsx';
 
 const FrontPage = () => {
   const {pageValue} = useSelector((state) => state.birthdaySlice)
-  console.log(pageValue);
-
   const dispatch = useDispatch();
   return (
     <div className={`bg-[bisque] min-h-screen p-5 pt-12 flex flex-col items-center justify-center ${pageValue && "hidden"}`}>
