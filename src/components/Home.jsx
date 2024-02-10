@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import ConfettiExplosion from "react-confetti-explosion";
 
 // import lydia from "../public/img/lydia.png";
 import lydia2 from "../public/img/lydia2.png";
