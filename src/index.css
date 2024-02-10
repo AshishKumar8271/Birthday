@@ -141,15 +141,19 @@ html {
   
   .baloons img:nth-child(even) {
     left: -10%;
-    top: 20%;
+    /* top: 20%; */
   }
   
   .baloons img:nth-child(odd) {
-    right: 10%;
+    right: -10%;
   }
   
   .baloons img:nth-child(3n + 0) {
     left: 30%;
+  }
+
+  .baloons > img {
+    width: 400px;
   }
   
   .eight svg {
@@ -262,30 +266,31 @@ html {
     }
   }
   
+
+  @media screen and (max-width: 768px) {
+    .baloons img {
+      width: 100px; 
+      height: auto; 
+    }
+
+    .baloons img:nth-child(even) {
+      left: -5%;
+    }
+
+    .baloons img:nth-child(odd) {
+      right: -5%;
+    }
+
+    .baloons img:nth-child(3n + 0) {
+      left: 15%;
+    }
+  }
+  
   @media screen and (max-width: 500px) {
     .box {
       width: 90%;
     }
 
-    @media screen and (max-width: 768px) {
-      .baloons img {
-        width: 100px; 
-        height: auto; 
-      }
-    
-      .baloons img:nth-child(even) {
-        left: -5%;
-      }
-    
-      .baloons img:nth-child(odd) {
-        right: -5%;
-      }
-    
-      .baloons img:nth-child(3n + 0) {
-        left: 15%;
-      }
-    }
-  
     .four .text-box {
       width: 90%;
     }
