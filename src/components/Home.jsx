@@ -12,13 +12,13 @@ import ballon3 from "../public/img/ballon3.svg";
 const Home = () => {
   return (
     <div className="box">
-      <div className="six">
+      <div className="six w-full">
         <motion.img
           animate={{ rotateZ: 360 }}
           transition={{ duration: 1, ease: "easeInOut" }}
           src={lydia2}
           alt=""
-          className="lydia-dp"
+          className="lydia-dp h-40"
           data-node-name="imagePath"
         />
         <motion.img
@@ -27,7 +27,7 @@ const Home = () => {
           transition={{ delay: 1, duration: 1, ease: "easeInOut" }}
           src={hat}
           alt=""
-          className="hat"
+          className="hat h-40"
         />
         <div className="wish">
           <h3 className="wish-hbd" data-node-name="wishHeading">
@@ -50,6 +50,7 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeInOut" }}
             src={ballon2}
             alt=""
+            className="h-40"
           />
           <motion.img
             initial={{ y: 650 }}
@@ -60,6 +61,7 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon1}
             alt=""
+            className="h-40"
           />
           <motion.img
             initial={{ y: 670 }}
@@ -70,6 +72,7 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeInOut" }}
             src={ballon3}
             alt=""
+            className="h-40"
           />
           <motion.img
             initial={{ y: 700 }}
@@ -77,6 +80,8 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon1}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -84,6 +89,8 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeInOut" }}
             src={ballon2}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -91,6 +98,8 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon3}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -101,6 +110,8 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon2}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -111,6 +122,8 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeInOut" }}
             src={ballon3}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -118,6 +131,8 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon1}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -128,6 +143,8 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeInOut" }}
             src={ballon2}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -138,6 +155,8 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon3}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -145,6 +164,8 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeInOut" }}
             src={ballon2}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -152,6 +173,8 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon1}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -159,6 +182,8 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeInOut" }}
             src={ballon3}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -169,6 +194,8 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon2}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -176,6 +203,8 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeInOut" }}
             src={ballon3}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -183,6 +212,8 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon1}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -190,6 +221,8 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeInOut" }}
             src={ballon2}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -197,6 +230,8 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon1}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -204,6 +239,8 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeInOut" }}
             src={ballon3}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -211,6 +248,8 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon3}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -218,6 +257,8 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeInOut" }}
             src={ballon1}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -225,6 +266,8 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon2}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -232,6 +275,8 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeInOut" }}
             src={ballon3}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -239,6 +284,8 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon2}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -246,6 +293,8 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeInOut" }}
             src={ballon1}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -253,6 +302,8 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon3}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -263,6 +314,8 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeInOut" }}
             src={ballon2}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -270,6 +323,8 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon3}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -277,6 +332,8 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeInOut" }}
             src={ballon1}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -287,6 +344,8 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon2}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -294,6 +353,8 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeInOut" }}
             src={ballon1}
             alt=""
+            className="h-40"
+
           />
           <motion.img
             initial={{ y: 700 }}
@@ -304,6 +365,8 @@ const Home = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon3}
             alt=""
+            className="h-40"
+
           />
         </div>
       </div>
