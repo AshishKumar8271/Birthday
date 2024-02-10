@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 // import lydia from "../public/img/lydia.png";
-import lydia2 from "../public/img/lydia2.png";
+import lydia2 from "../assets/img/lydia2.png";
 // import favicon from "../public/img/favicon.png";
-import hat from "../public/img/hat.svg";
-import ballon1 from "../public/img/ballon3.svg";
-import ballon2 from "../public/img/ballon2.svg";
-import ballon3 from "../public/img/ballon3.svg";
+import hat from "../assets/img/hat.svg";
+import ballon1 from "../assets/img/ballon3.svg";
+import ballon2 from "../assets/img/ballon2.svg";
+import ballon3 from "../assets/img/ballon3.svg";
 
 const Home = () => {
   return (
