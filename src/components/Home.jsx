@@ -32,46 +32,306 @@ const Home = () => {
 
       <div className="seven">
         <div className="baloons">
+        <div className="six w-full">
+        <motion.img
+          animate={{ rotateZ: 360 }}
+          transition={{ duration: 1, ease: "easeInOut" }}
+          src={lydia2}
+          alt=""
+          className="lydia-dp h-40"
+          data-node-name="imagePath"
+        />
+        <motion.img
+          transition={{ delay: 1, duration: 1, ease: "easeInOut" }}
+          src={hat}
+          alt=""
+          className="hat h-40"
+        />
+        <div className="wish">
+          <h3 className="wish-hbd" data-node-name="wishHeading"></h3>
+            transition={{ duration: 1, ease: "easeInOut" }}
+            src={ballon2}
+            alt=""
+            className="h-40"
+          <div/>
           <motion.img
-            initial={{ y: 250 }}
-            animate={{ y: -10 }}
+            initial={{ y: 650 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            src={ballon1}
+            alt=""
+            className="h-40"
+          />
+          <motion.img
+            initial={{ y: 670 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            src={ballon3}
+            alt=""
+            className="h-40"
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            src={ballon1}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            src={ballon2}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            src={ballon3}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
             transition={{ duration: 2, ease: "easeInOut" }}
             src={ballon2}
             alt=""
+            className="h-40"
+
           />
-          <img src={ballon1} alt="" />
-          <img src={ballon3} alt="" />
-          <img src={ballon1} alt="" />
-          <img src={ballon2} alt="" />
-          <img src={ballon3} alt="" />
-          <img src={ballon2} alt="" />
-          <img src={ballon3} alt="" />
-          <img src={ballon1} alt="" />
-          <img src={ballon2} alt="" />
-          <img src={ballon3} alt="" />
-          <img src={ballon2} alt="" />
-          <img src={ballon1} alt="" />
-          <img src={ballon3} alt="" />
-          <img src={ballon2} alt="" />
-          <img src={ballon3} alt="" />
-          <img src={ballon1} alt="" />
-          <img src={ballon2} alt="" />
-          <img src={ballon1} alt="" />
-          <img src={ballon3} alt="" />
-          <img src={ballon3} alt="" />
-          <img src={ballon1} alt="" />
-          <img src={ballon2} alt="" />
-          <img src={ballon3} alt="" />
-          <img src={ballon2} alt="" />
-          <img src={ballon1} alt="" />
-          <img src={ballon3} alt="" />
-          <img src={ballon2} alt="" />
-          <img src={ballon3} alt="" />
-          <img src={ballon1} alt="" />
-          <img src={ballon2} alt="" />
-          <img src={ballon1} alt="" />
-          <img src={ballon3} alt="" />
+          <motion.img
+            initial={{ y: 700 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            src={ballon3}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            src={ballon1}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            src={ballon2}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            src={ballon3}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            src={ballon2}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            src={ballon1}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            src={ballon3}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            src={ballon2}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            src={ballon3}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            src={ballon1}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            src={ballon2}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            src={ballon1}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            src={ballon3}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            src={ballon3}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            src={ballon1}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            src={ballon2}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            src={ballon3}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            src={ballon2}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            src={ballon1}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            src={ballon3}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            src={ballon2}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            src={ballon3}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            src={ballon1}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            src={ballon2}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            animate={{ y: -700 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            src={ballon1}
+            alt=""
+            className="h-40"
+
+          />
+          <motion.img
+            initial={{ y: 700 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            src={ballon3}
+            alt=""
+            className="h-40"
+          />
         </div>
+      </div>
+          </div>
       </div>
 
       <div className="eight">

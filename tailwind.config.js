@@ -12,8 +12,13 @@ export default {
           '50%': { transform: 'rotate(10deg)' },
         }
       },
+      bounce: {
+        '0%,100%': {transform: 'translateY(-5px)'},
+        '50%': {transform: 'translateY(5px)'},
+      },
       animation: {
         wiggle: 'wiggle 1.5s ease-in-out infinite',
+        bounce: 'bounce 3s linear infinite',
       }
     },
   },
