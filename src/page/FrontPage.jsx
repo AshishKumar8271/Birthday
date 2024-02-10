@@ -1,8 +1,7 @@
-import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { openPage } from '../Features/userSlice.jsx';
 
-const frontPage = () => {
+const FrontPage = () => {
   const {pageValue} = useSelector((state) => state.birthdaySlice)
   console.log(pageValue);
 
@@ -24,4 +23,4 @@ const frontPage = () => {
   )
 }
 
-export default frontPage
+export default FrontPage;
