@@ -39,7 +39,9 @@ const Details = () => {
         <h2>Time to Event</h2>
         <div className="grid grid-cols-4 w-80 border-2 rounded-lg mx-auto mb-3">
           <div className="flex justify-center items-baseline border-r-2 py-2 pr-2">
-            <h3 className="text-xl">{timeLeft.days}</h3>
+            <h3 className="text-xl">
+              {timeLeft.days < 10 ? "0" + timeLeft.days : timeLeft.days}
+            </h3>
             <small>days</small>
           </div>
 

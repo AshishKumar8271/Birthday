@@ -24,12 +24,12 @@ html {
     margin: 0 auto;
     text-align: center;
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
   }
   
   .box div.six {
     top: 10vh;
-    /* z-index: 1; */
+    z-index: 1;
   }
   
   .box > div {
