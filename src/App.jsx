@@ -14,8 +14,7 @@ const App = () => {
 
   return(
     <div className="min-h-screen">
-      <BackPage/>
-      {/* { pageValue ? <BackPage />: <FrontPage />} */}
+      { pageValue ? <BackPage />: <FrontPage />}
     </div>
   )
 };
