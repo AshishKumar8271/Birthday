@@ -1,5 +1,6 @@
 import Home from '../components/Home';
 import Details from '../components/Details.jsx';
+import WishingBox from "../components/WishingBox";
 
 const BackPage = () => {
   return (
@@ -23,8 +24,9 @@ const BackPage = () => {
 
 
 
+      <WishingBox />
     </div>
-  )
-}
+  );
+};
 
 export default BackPage;
