@@ -14,6 +14,11 @@ export default {
       },
       animation: {
         wiggle: 'wiggle 1.5s ease-in-out infinite',
+        bounce: 'bounce 3s linear infinite',
+      },
+
+      boxShadow: {
+        'xl': '0px 0px 12px -2px gray',
       }
     },
   },
