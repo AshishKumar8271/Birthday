@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 import lydia2 from "../assets/img/lydia2.png";
-import hat from "../assets/img/hat.svg";
 
 import Balloon from "./Balloon";
 

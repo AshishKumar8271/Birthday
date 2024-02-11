@@ -8,7 +8,7 @@
 
 html {
     box-sizing: border-box;
-  }
+}
   
   body {
     margin: 0;
@@ -20,7 +20,6 @@ html {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    /* visibility: hidden; */
     position: relative;
     overflow: hidden;
   }
