@@ -1,8 +1,37 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FaMapLocation } from "react-icons/fa6";
 import "aos/dist/aos.css";
 
 const Details = () => {
+  const birthdayDate = new Date("2024-02-13");
+  const currentDate = new Date();
+
+  const calculateTimeLeft = () => {
+    const difference = birthdayDate - currentDate;
+    let timeLeft = {};
+
+    if (difference > 0) {
+      timeLeft = {
+        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+        minutes: Math.floor((difference / 1000 / 60) % 60),
+        seconds: Math.floor((difference / 1000) % 60),
+      };
+    }
+
+    return timeLeft;
+  };
+
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  });
+
   return (
     <section className="bg-[#71bdf0] overflow-x-hidden text-white font-semibold text-center -mt-1">
       {/* Timer */}
@@ -10,23 +39,23 @@ const Details = () => {
         <h2>Time to Event</h2>
         <div className="grid grid-cols-4 w-80 border-2 rounded-lg mx-auto mb-3">
           <div className="flex justify-center items-baseline border-r-2 py-2 pr-2">
-            <h3 className="text-xl">00</h3>
+            <h3 className="text-xl">{timeLeft.days}</h3>
+            <small>days</small>
+          </div>
+
+          <div className="flex justify-center items-baseline border-r-2 py-2 pr-2">
+            <h3 className="text-xl">{timeLeft.hours}</h3>
             <small>hrs</small>
           </div>
 
           <div className="flex justify-center items-baseline border-r-2 py-2 pr-2">
-            <h3 className="text-xl">00</h3>
-            <small>hrs</small>
-          </div>
-
-          <div className="flex justify-center items-baseline border-r-2 py-2 pr-2">
-            <h3 className="text-xl">00</h3>
-            <small>hrs</small>
+            <h3 className="text-xl">{timeLeft.minutes}</h3>
+            <small>min</small>
           </div>
 
           <div className="flex justify-center items-baseline py-2 pr-2">
-            <h3 className="text-xl">00</h3>
-            <small>hrs</small>
+            <h3 className="text-xl">{timeLeft.seconds}</h3>
+            <small>sec</small>
           </div>
         </div>
       </div>
@@ -39,7 +68,7 @@ const Details = () => {
           data-aos-duration="1000"
         >
           <h3>Time for Event: </h3>
-          <p>12 Jan 2024 8:00 PM</p>
+          <p>13 Feb 2024 8:00 PM</p>
         </div>
         <div
           className="mt-10 mb-3 text-center text-white font-semibold"
