@@ -41,8 +41,9 @@ const WishingBox = () => {
   }, []);
 
   return (
-    <div className="mt-8 py-4 w-full flex flex-col justify-center items-center md:px-2">
-      <div className="w-full max-w-[500px] h-[600px] flex flex-col-reverse md:rounded-tl md:rounded-tr bg-gradient-to-br from-purple-400 to-blue-400 overflow-y-scroll shadow-lg border-2 border-black border-b-transparent p-2" style={{ overflowY: "scroll", scrollbarWidth: "thin" }}>
+    <div className="mt-8 pt-3 max-w-[500px] md:px-2 shadow-xl rounded-3xl mb-5 mx-4">
+      <h1 className="text-center text-3xl mb-1 font-sans font-bold font-courg">Wishing Box</h1>
+      <div className="w-full p-2 h-[300px] flex flex-col-reverse md:rounded-tl md:rounded-tr " style={{ overflowY: "scroll", scrollbarWidth: "thin" }}>
         {userDetails.map((data) => (
           <ChatMessages
             key={data._id}
@@ -52,7 +53,7 @@ const WishingBox = () => {
           />
         ))}
       </div>
-      <div className="w-full max-w-[500px] bg-gradient-to-br from-purple-400 to-blue-400 flex justify-between items-end py-3 border-2 border-black border-t-transparent px-1 rounded-b-md">
+      <div className="w-full max-w-[500px] flex justify-between items-end py-3 px-2">
         <div className="space-y-2 flex-1">
           <input
             type="text"
@@ -73,7 +74,7 @@ const WishingBox = () => {
         <button
           type="button"
           onClick={handleOnClick}
-          className="text-white bg-blue-600 focus:ring-4 font-medium rounded-md h-8 text-sm px-4 py-[5px] focus:outline-none  hover:bg-blue-700 "
+          className="text-white bg-blue-600 focus:ring-4 font-medium rounded-md h-8 text-sm px-4 py-[5px] focus:outline-none  hover:bg-blue-700"
         >
           Send
         </button>

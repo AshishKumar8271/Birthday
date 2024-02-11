@@ -21,6 +21,10 @@ export default {
         'xl': '0px 0px 12px -2px gray',
       }
     },
+
+    fontFamily: {
+      'courg': "'Courgette', cursive",
+    }
   },
   plugins: [],
 }
