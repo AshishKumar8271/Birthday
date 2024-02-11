@@ -1,6 +1,7 @@
 import Home from "../components/Home";
 import Details from "../components/Details.jsx";
 import WishingBox from "../components/WishingBox";
+import Footer from "../components/Footer.jsx";
 
 const BackPage = () => {
   return (
@@ -37,6 +38,21 @@ const BackPage = () => {
       </svg>
 
       <WishingBox />
+
+      {/* wave top */}
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+        className=""
+      >
+        <path
+          fill="#71bdf0"
+          fillOpacity="1"
+          d="M0,192L40,202.7C80,213,160,235,240,213.3C320,192,400,128,480,101.3C560,75,640,85,720,117.3C800,149,880,203,960,197.3C1040,192,1120,128,1200,106.7C1280,85,1360,107,1400,117.3L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+
+      <Footer />
     </div>
   );
 };
