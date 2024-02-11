@@ -25,7 +25,7 @@ html {
     text-align: center;
     /* visibility: hidden; */
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
   }
   
   .box div.six {

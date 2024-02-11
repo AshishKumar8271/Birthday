@@ -7,7 +7,7 @@ import Balloon from "./Balloon";
 
 const Home = () => {
   return (
-    <div className="box relative">
+    <div className="box">
       <div className="six">
         <motion.img
           animate={{ rotateZ: 360 }}

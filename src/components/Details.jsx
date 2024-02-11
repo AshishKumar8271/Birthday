@@ -33,7 +33,7 @@ const Details = () => {
   });
 
   return (
-    <section className="bg-[#71bdf0] overflow-x-hidden text-white font-semibold text-center -mt-1">
+    <section className="bg-[#71bdf0] text-white font-semibold text-center -mt-1 overflow-x-hidden">
       {/* Timer */}
       <div>
         <h2>Time to Event</h2>
@@ -63,7 +63,7 @@ const Details = () => {
       {/* Event timing and address */}
       <div className="">
         <div
-          className="text-center text-white font-semibold"
+          className="text-center text-white font-semibold overflow-x-hidden"
           data-aos="fade-left"
           data-aos-duration="1000"
         >
@@ -71,7 +71,7 @@ const Details = () => {
           <p>13 Feb 2024 8:00 PM</p>
         </div>
         <div
-          className="mt-10 mb-3 text-center text-white font-semibold"
+          className="mt-10 mb-3 text-center text-white font-semibold overflow-x-hidden"
           data-aos="fade-right"
           data-aos-duration="1500"
         >

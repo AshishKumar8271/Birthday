@@ -6,7 +6,7 @@ import Footer from "../components/Footer.jsx";
 const BackPage = () => {
   return (
     <div>
-      <Home />
+      {/* <Home /> */}
 
       {/* wave top */}
       <svg
