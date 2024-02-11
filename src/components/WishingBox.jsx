@@ -10,7 +10,7 @@ const WishingBox = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get("http://localhost:7000/url/userData");
+      const response = await axios.get("https://birthday-backend-ten.vercel.app/url/userData");
       const data = response.data;
       setUserDetails(data.user);
     } catch (error) {
@@ -20,7 +20,7 @@ const WishingBox = () => {
 
   const handleUserDataApi = async () => {
     try {
-      await axios.post("http://localhost:7000/url", {
+      await axios.post("https://birthday-backend-ten.vercel.app/url", {
         username,
         message,
       });
