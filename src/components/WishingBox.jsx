@@ -42,7 +42,7 @@ const WishingBox = () => {
 
   return (
     <div className="mt-8 py-4 w-full flex flex-col justify-center items-center md:px-2">
-      <div className="w-full max-w-[500px] h-[600px] flex flex-col-reverse md:rounded-tl md:rounded-tr bg-gradient-to-br from-purple-400 to-blue-400 overflow-y-scroll shadow-lg border-2 border-black border-b-transparent p-2">
+      <div className="w-full max-w-[500px] h-[600px] flex flex-col-reverse md:rounded-tl md:rounded-tr bg-gradient-to-br from-purple-400 to-blue-400 overflow-y-scroll shadow-lg border-2 border-black border-b-transparent p-2" style={{ overflowY: "scroll", scrollbarWidth: "thin" }}>
         {userDetails.map((data) => (
           <ChatMessages
             key={data._id}

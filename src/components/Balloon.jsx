@@ -20,10 +20,7 @@ const Balloon = () => {
         />
         <motion.img
           initial={{ y: 650 }}
-          animate={{
-            y: [60, 40, 60],
-            transition: { duration: 3, repeat: Infinity },
-          }}
+          animate={{ y: -700 }}
           transition={{ duration: 2, ease: "easeInOut" }}
           src={ballon1}
           alt=""
@@ -61,20 +58,14 @@ const Balloon = () => {
         />
         <motion.img
           initial={{ y: 700 }}
-          animate={{
-            y: [50, 30, 50],
-            transition: { duration: 3, repeat: Infinity },
-          }}
+          animate={{ y: -700 }}
           transition={{ duration: 2, ease: "easeInOut" }}
           src={ballon2}
           alt=""
         />
         <motion.img
           initial={{ y: 700 }}
-          animate={{
-            y: [80, 60, 80],
-            transition: { duration: 3, repeat: Infinity },
-          }}
+          animate={{ y: -700 }}
           transition={{ duration: 1, ease: "easeInOut" }}
           src={ballon3}
           alt=""

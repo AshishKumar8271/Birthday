@@ -192,3 +192,21 @@ html {
     box-shadow: 0px 0px 6px 2px white;
     background-color: #70c0f5;
   }
+
+  /* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 4px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
