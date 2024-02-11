@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+*{
+  touch-action: none;
+}
+
 html {
     box-sizing: border-box;
   }
@@ -326,3 +331,22 @@ html {
       font-weight: lighter;
     }
   }
+
+
+
+
+  /* /////////// gradient button  ///////////////////*/
+
+  .btn-grad {
+    padding:6px 16px;
+    box-shadow: 0px 0px 3px 2px white ;
+    border-radius: 4px;
+    transition: all .3s ease-in-out;
+  }
+
+  .btn-grad:hover,
+  .btn-grad:active {
+    box-shadow: 0px 0px 6px 2px white;
+    background-color: #70c0f5;
+  }
+ 

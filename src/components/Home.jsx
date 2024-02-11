@@ -10,7 +10,7 @@ import ballon3 from "../assets/img/ballon3.svg";
 
 const Home = () => {
   return (
-    <div className="box">
+    <div className="box bg-[bi]">
       <div className="six w-full">
         <motion.img
           animate={{ rotateZ: 360 }}
@@ -37,7 +37,7 @@ const Home = () => {
           </h5>
         </div>
       </div>
-
+      
       <div className="seven">
         <div className="baloons">
           <motion.img
@@ -134,7 +134,7 @@ const Home = () => {
               y: [750, 730, 750],
               transition: { duration: 3, repeat: Infinity },
             }}
-            transition={{ duration: 2, ease: "easeInOut" }}
+            transition={{ duration: 2, ease: "easeInOut"}}
             src={ballon3}
             alt=""
           />
