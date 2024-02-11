@@ -5,9 +5,9 @@
 @tailwind utilities;
 
 
-*{
+/* *{
   touch-action: none;
-}
+} */
 
 html {
     box-sizing: border-box;
@@ -29,7 +29,7 @@ html {
   
   .box div.six {
     top: 10vh;
-    z-index: 1;
+    /* z-index: 1; */
   }
   
   .box > div {
