@@ -2,11 +2,14 @@ import Home from "../components/Home";
 import Details from "../components/Details.jsx";
 import WishingBox from "../components/WishingBox";
 import Footer from "../components/Footer.jsx";
+import Quotes from "../components/Quotes";
 
 const BackPage = () => {
   return (
     <div>
       <Home />
+
+      <Quotes/>
 
       {/* wave top */}
       <svg

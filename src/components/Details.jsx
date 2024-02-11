@@ -11,11 +11,31 @@ const Details = () => {
     let timeLeft = {};
 
     if (difference > 0) {
+      let days = Math.floor(difference / (1000 * 60 * 60 * 24));
+      if(days < 10) {
+        days = `0${days}`;
+      }
+
+      let hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
+
+      if(hours < 10 ) {
+        hours = `0${hours}`;
+      }
+
+      let minutes = Math.floor((difference / 1000 / 60) % 60);
+      if(minutes < 10) {
+        minutes = `0${minutes}`;
+      }
+
+      let seconds= Math.floor((difference / 1000) % 60);
+      if(seconds < 10) {
+        seconds = `0${seconds}`;
+      }
       timeLeft = {
-        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-        minutes: Math.floor((difference / 1000 / 60) % 60),
-        seconds: Math.floor((difference / 1000) % 60),
+        days,
+        hours,
+        minutes,
+        seconds,
       };
     }
 
@@ -39,22 +59,22 @@ const Details = () => {
         <h2>Time to Event</h2>
         <div className="grid grid-cols-4 w-80 border-2 rounded-lg mx-auto mb-3">
           <div className="flex justify-center items-baseline border-r-2 py-2 pr-2">
-            <h3 className="text-xl">{timeLeft.days}</h3>
+            <h3 className="text-xl mr-0.5">{timeLeft.days}</h3>
             <small>days</small>
           </div>
 
           <div className="flex justify-center items-baseline border-r-2 py-2 pr-2">
-            <h3 className="text-xl">{timeLeft.hours}</h3>
+            <h3 className="text-xl mr-0.5">{timeLeft.hours}</h3>
             <small>hrs</small>
           </div>
 
           <div className="flex justify-center items-baseline border-r-2 py-2 pr-2">
-            <h3 className="text-xl">{timeLeft.minutes}</h3>
+            <h3 className="text-xl mr-0.5">{timeLeft.minutes}</h3>
             <small>min</small>
           </div>
 
           <div className="flex justify-center items-baseline py-2 pr-2">
-            <h3 className="text-xl">{timeLeft.seconds}</h3>
+            <h3 className="text-xl mr-0.5">{timeLeft.seconds}</h3>
             <small>sec</small>
           </div>
         </div>

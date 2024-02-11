@@ -5,6 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+
+
+    screens: {
+      'sm2': '530px',
+    },
+
     extend: {
       keyframes: {
         wiggle: {
@@ -12,6 +18,7 @@ export default {
           '50%': { transform: 'rotate(10deg)' },
         }
       },
+
       animation: {
         wiggle: 'wiggle 1.5s ease-in-out infinite',
         bounce: 'bounce 3s linear infinite',
@@ -24,7 +31,8 @@ export default {
 
     fontFamily: {
       'courg': "'Courgette', cursive",
-    }
+    },
+
   },
   plugins: [],
 }

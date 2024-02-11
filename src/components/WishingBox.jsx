@@ -41,9 +41,9 @@ const WishingBox = () => {
   }, []);
 
   return (
-    <div className="mt-8 pt-3 max-w-[500px] md:px-2 shadow-xl rounded-3xl mb-5 mx-4">
+    <div className="mt-8 pt-3 max-w-[500px] md:px-2 shadow-xl rounded-3xl mb-5 mx-4 sm2:mx-auto ">
       <h1 className="text-center text-3xl mb-1 font-sans font-bold font-courg">Wishing Box</h1>
-      <div className="w-full p-2 h-[300px] flex flex-col-reverse md:rounded-tl md:rounded-tr " style={{ overflowY: "scroll", scrollbarWidth: "thin" }}>
+      <div className="w-full p-2 h-[300px] flex flex-col-reverse md:rounded-tl md:rounded-tr " style={{ overflowY: "scroll", scrollbarWidth: "none" }}>
         {userDetails.map((data) => (
           <ChatMessages
             key={data._id}
@@ -58,7 +58,7 @@ const WishingBox = () => {
           <input
             type="text"
             onChange={(e) => setUsername(e.target.value)}
-            className="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-[80%] p-2 placeholder-gray-400 focus:outline-none dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg block w-[80%] p-2 focus:outline-none"
             placeholder="Enter your name"
             required
           />
@@ -66,7 +66,7 @@ const WishingBox = () => {
             type="text"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            className="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-[95%] p-2 placeholder-gray-400 focus:outline-none dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg block w-[95%] p-2 placeholder-gray-400 focus:outline-none "
             placeholder="Send your greetings"
             required
           />

@@ -25,8 +25,8 @@ const ChatMessages = ({ username, greeting, date }) => {
         {getInitialLettersOfName(username).toUpperCase()}
       </div>
       <div className="w-full">
-        <div className="flex justify-between">
-          <span className="text-sm font-semibold text-blue-900">
+        <div className="flex items-center border-b-2 pb-2">
+          <span className="text-sm font-semibold">
             {username.charAt(0).toUpperCase() + username.slice(1)}
           </span>
           <span className="text-xs font-medium text-gray-600 ml-2">
@@ -34,7 +34,7 @@ const ChatMessages = ({ username, greeting, date }) => {
           </span>
         </div>
 
-        <span className="block text-sm text-blue-800 mt-1">{greeting}</span>
+        <span className="block text-sm my-2 text-gray-600 font-courg">{greeting}</span>
       </div>
     </div>
   );
