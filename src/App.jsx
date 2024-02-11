@@ -13,7 +13,7 @@ const App = () => {
   }, []);
 
   return(
-    <div className="overflow-hidden">
+    <div className="overflow-x-hidden">
       { pageValue ? <BackPage />: <FrontPage />}
     </div>
   )
