@@ -6,8 +6,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function ImageSlider() {
-  const [display, setDisplay] = useState(true);
-  const [width, setWidth] = useState(600);
   const settings = {
     accessibility: true,
     className: "center",

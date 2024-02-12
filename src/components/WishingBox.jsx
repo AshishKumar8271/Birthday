@@ -8,6 +8,8 @@ const WishingBox = () => {
   const [userDetails, setUserDetails] = useState([]);
   const emptyName = useRef();
   const emptyGreet = useRef();
+  const [errorMessage, setErrorMessage] = useState("");
+  const [isError, setIsError] = useState(false);
 
   const fetchData = async () => {
     try {
@@ -28,9 +30,13 @@ const WishingBox = () => {
         message,
       });
       setMessage("");
+      setIsError(false);
       fetchData();
     } catch (error) {
-      console.error(error);
+      if (error.code === "ERR_BAD_REQUEST") {
+        setErrorMessage(error.response.data.error);
+        setIsError(true);
+      }
     }
   };
 
@@ -93,6 +99,11 @@ const WishingBox = () => {
             placeholder="Send your greetings"
             required ref={emptyGreet}
           />
+          {isError ? (
+            <p className="text-sm text-red-700 ml-1">{errorMessage}</p>
+          ) : (
+            ""
+          )}
         </div>
         <button
           type="button"
