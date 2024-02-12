@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import axios from "axios";
 import ChatMessages from "./ChatMessages";
+import ballonsvg from "../assets/img/balloonstyle.svg";
 
 const WishingBox = () => {
   const [username, setUsername] = useState("");
@@ -69,7 +70,15 @@ const WishingBox = () => {
 
   return (
     <div className="pt-3 max-w-[900px] md:px-2 shadow-xl rounded-3xl mb-5 mx-4 lg:mx-auto">
+      <div className="relative">
       <h1 className="text-center text-3xl mb-2 font-sans font-bold font-courg">Wishing Box</h1>
+
+      {/* ballon svg */}
+      <div className="absolute w-24 -top-20 -right-2 z-[-1] animate-wiggi">
+        <img src={ballonsvg} alt="" />
+      </div>
+      </div>
+
       <div className="w-full p-2 pt-1 h-[350px] flex flex-col-reverse md:rounded-tl md:rounded-tr md:h-[500px]" style={{ overflowY: "scroll", scrollbarWidth: "none" }}>
         {userDetails.map((data) => (
           <ChatMessages

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
+import ballonsvg from "../assets/img/balloonstyle.svg";
+
 import "aos/dist/aos.css";
 
 import "slick-carousel/slick/slick.css";
@@ -59,7 +61,13 @@ function ImageSlider() {
     ],
   };
   return (
-    <div className="slider-container px-2 mt-10 md:px-12">
+    <div className="slider-container px-2 mt-10 md:px-12 relative">
+      {/* ballons svg */}
+      <div className="flex flex-row-reverse absolute right-8 -top-16 z-[-1]">
+        <img src={ballonsvg} className="w-24 animate-wiggi" />
+      </div>
+
+
       <div className="text-center mb-6">
         <h2
           className="text-2xl font-bold text-purple-600 font-courg md:3xl"
