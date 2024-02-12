@@ -6,11 +6,6 @@ export default {
   ],
   theme: {
 
-
-    screens: {
-      'sm2': '530px',
-    },
-
     extend: {
       keyframes: {
         wiggle: {
@@ -31,6 +26,7 @@ export default {
 
     fontFamily: {
       'courg': "'Courgette', cursive",
+      'ubuntu': "'Ubuntu', sans-serif",
     },
 
   },

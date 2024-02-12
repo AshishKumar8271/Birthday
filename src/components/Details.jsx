@@ -53,7 +53,7 @@ const Details = () => {
   });
 
   return (
-    <section className="bg-[#71bdf0] text-white font-semibold text-center -mt-1 overflow-x-hidden">
+    <section className="bg-[#71bdf0] text-white font-semibold text-center -mt-1 overflow-x-hidden font-ubuntu">
       {/* Timer */}
       <div>
         <h2>Time to Event</h2>

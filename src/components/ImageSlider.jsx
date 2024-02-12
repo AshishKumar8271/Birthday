@@ -21,6 +21,7 @@ function ImageSlider() {
     autoplay: true,
     focusOnSelect: true,
     pauseOnFocus: true,
+    dots: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -38,7 +39,7 @@ function ImageSlider() {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
-          slidesPerRow: 3,
+          slidesPerRow: 2,
         },
       },
       {
@@ -60,7 +61,7 @@ function ImageSlider() {
     ],
   };
   return (
-    <div className="slider-container px-2">
+    <div className="slider-container px-2 md:px-12">
       <div className="text-center mb-6">
         <h2
           className="text-4xl font-bold text-purple-600 font-courg"
@@ -128,6 +129,12 @@ function ImageSlider() {
         </div>
         <div className="p-2">
           <img src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        </div>
+        <div className="p-2">
+          <img src="https://images.pexels.com/photos/2189696/pexels-photo-2189696.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        </div>
+        <div className="p-2">
+          <img src="https://images.pexels.com/photos/2189696/pexels-photo-2189696.jpeg?auto=compress&cs=tinysrgb&w=600" />
         </div>
         <div className="p-2">
           <img src="https://images.pexels.com/photos/2189696/pexels-photo-2189696.jpeg?auto=compress&cs=tinysrgb&w=600" />
