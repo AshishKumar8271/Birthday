@@ -57,7 +57,7 @@ function ImageSlider() {
     ],
   };
   return (
-    <div className="slider-container px-44">
+    <div className="slider-container px-2">
       <div className="text-center mb-6">
         <h2
           className="text-4xl font-bold text-purple-600 font-courg"
