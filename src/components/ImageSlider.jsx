@@ -59,7 +59,7 @@ function ImageSlider() {
     <div className="slider-container px-44">
       <div className="text-center mb-6">
         <h2
-          className="text-4xl font-bold text-purple-600 font-courg"
+          className="text-xl md:text-4xl font-bold text-purple-600 font-courg"
           data-aos="fade-left"
           data-aos-duration="1000"
         >
