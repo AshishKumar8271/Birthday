@@ -6,6 +6,8 @@ const WishingBox = () => {
   const [username, setUsername] = useState("");
   const [message, setMessage] = useState("");
   const [userDetails, setUserDetails] = useState([]);
+  const [errorMessage, setErrorMessage] = useState("");
+  const [isError, setIsError] = useState(false);
 
   const fetchData = async () => {
     try {
@@ -26,9 +28,13 @@ const WishingBox = () => {
         message,
       });
       setMessage("");
+      setIsError(false);
       fetchData();
     } catch (error) {
-      console.error(error);
+      if (error.code === "ERR_BAD_REQUEST") {
+        setErrorMessage(error.response.data.error);
+        setIsError(true);
+      }
     }
   };
 
@@ -42,8 +48,13 @@ const WishingBox = () => {
 
   return (
     <div className="mt-8 pt-3 max-w-[500px] md:px-2 shadow-xl rounded-3xl mb-5 mx-4">
-      <h1 className="text-center text-3xl mb-1 font-sans font-bold font-courg">Wishing Box</h1>
-      <div className="w-full p-2 h-[300px] flex flex-col-reverse md:rounded-tl md:rounded-tr " style={{ overflowY: "scroll", scrollbarWidth: "none" }}>
+      <h1 className="text-center text-3xl mb-1 font-sans font-bold font-courg">
+        Wishing Box
+      </h1>
+      <div
+        className="w-full p-2 h-[300px] flex flex-col-reverse md:rounded-tl md:rounded-tr "
+        style={{ overflowY: "scroll", scrollbarWidth: "none" }}
+      >
         {userDetails.map((data) => (
           <ChatMessages
             key={data._id}
@@ -70,6 +81,11 @@ const WishingBox = () => {
             placeholder="Send your greetings"
             required
           />
+          {isError ? (
+            <p className="text-sm text-red-700 ml-1">{errorMessage}</p>
+          ) : (
+            ""
+          )}
         </div>
         <button
           type="button"
