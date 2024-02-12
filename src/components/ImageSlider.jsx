@@ -77,65 +77,166 @@ function ImageSlider() {
         </p>
       </div>
       <Slider {...settings}>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" />
+
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/2189696/pexels-photo-2189696.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/2189696/pexels-photo-2189696.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/2189696/pexels-photo-2189696.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/2189696/pexels-photo-2189696.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/2189696/pexels-photo-2189696.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/2189696/pexels-photo-2189696.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
-        <div className="p-2">
-          <img src="https://images.pexels.com/photos/2189696/pexels-photo-2189696.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <div className="p-2 relative">
+          <img
+            src="https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600"
+            className="block w-full h-auto rounded-lg"
+            alt="Image"
+          />
+          <div className="absolute inset-0 opacity-0 hover:bg-white hover:opacity-50 transition-opacity duration-300 rounded-lg"></div>
         </div>
       </Slider>
     </div>
