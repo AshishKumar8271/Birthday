@@ -44,23 +44,21 @@ const WishingBox = () => {
     const nameValue = emptyName.current.value;
     const greetValue = emptyGreet.current.value;
 
-    if(nameValue === "") {
-      emptyName.current.style.border = '1px solid red';
-      setTimeout(()=> {
-        emptyName.current.style.border = '1px solid rgb(209 213 219 / var(--tw-border-opacity))';
-      },3000);
-      
-    };
-
-
-    if(greetValue === "") {
-      emptyGreet.current.style.border = '1px solid red';
-      setTimeout(()=> {
-        emptyGreet.current.style.border = '1px solid rgb(209 213 219 / var(--tw-border-opacity))';
-      },3000);
-      
+    if (nameValue === "") {
+      emptyName.current.style.border = "1px solid red";
+      setTimeout(() => {
+        emptyName.current.style.border =
+          "1px solid rgb(209 213 219 / var(--tw-border-opacity))";
+      }, 3000);
     }
-    
+
+    if (greetValue === "") {
+      emptyGreet.current.style.border = "1px solid red";
+      setTimeout(() => {
+        emptyGreet.current.style.border =
+          "1px solid rgb(209 213 219 / var(--tw-border-opacity))";
+      }, 3000);
+    }
 
     handleUserDataApi();
   };
@@ -89,7 +87,8 @@ const WishingBox = () => {
             onChange={(e) => setUsername(e.target.value)}
             className="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg block w-[80%] p-2 focus:outline-none"
             placeholder="Enter your name"
-            required ref={emptyName}
+            required
+            ref={emptyName}
           />
           <input
             type="text"
@@ -97,7 +96,8 @@ const WishingBox = () => {
             onChange={(e) => setMessage(e.target.value)}
             className="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg block w-[95%] p-2 placeholder-gray-400 focus:outline-none "
             placeholder="Send your greetings"
-            required ref={emptyGreet}
+            required
+            ref={emptyGreet}
           />
           
         </div>

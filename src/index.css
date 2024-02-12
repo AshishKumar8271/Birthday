@@ -221,13 +221,6 @@ html {
   background: #555;
 }
 
-.anime {
-  animation: wiggi;
-  animation-duration: 1000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
-}
-
 @keyframes wiggi {
   50% {
     transform: translateY(-5px);
@@ -236,3 +229,4 @@ html {
     transform: translateY(0px);
   }
 }
+
