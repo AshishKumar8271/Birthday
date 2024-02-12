@@ -4,6 +4,7 @@ import WishingBox from "../components/WishingBox";
 import Footer from "../components/Footer.jsx";
 import Quotes from "../components/Quotes";
 import ImageSlider from "../components/ImageSlider.jsx";
+import ballonsvg from "../assets/img/balloonstyle.svg";
 
 const BackPage = () => {
   return (
@@ -41,10 +42,30 @@ const BackPage = () => {
         ></path>
       </svg>
 
+      <div>
+        <img src={ballonsvg} className="w-24 animate-wiggi" />
+      </div>
+      <div className="flex flex-row-reverse">
+        <img src={ballonsvg} className="w-24 animate-wiggi" />
+      </div>
+
       <ImageSlider />
 
-      <div className="mt-28 flex items-center justify-center">
+      <div>
+        <img src={ballonsvg} className="w-24 animate-wiggi" />
+      </div>
+      <div className="flex flex-row-reverse">
+        <img src={ballonsvg} className="w-24 animate-wiggi" />
+      </div>
+
+      <div className="mt-28 relative flex items-center justify-center">
         <WishingBox />
+        <div className="absolute hidden md:block left-[5%] lg:left-[20%] ">
+          <img src={ballonsvg} className="w-24 animate-wiggi" />
+        </div>
+      </div>
+      <div>
+        <img src={ballonsvg} className="w-24 animate-wiggi" />
       </div>
 
       {/* wave top */}
