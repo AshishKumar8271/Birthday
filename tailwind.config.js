@@ -5,6 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+
     extend: {
       keyframes: {
         wiggle: {
@@ -25,6 +26,7 @@ export default {
 
     fontFamily: {
       'courg': "'Courgette', cursive",
+      'ubuntu': "'Ubuntu', sans-serif",
     },
 
   },
