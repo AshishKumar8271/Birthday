@@ -15,7 +15,7 @@ function ImageSlider() {
     infinite: true,
     centerPadding: "0px",
     slidesToShow: 2,
-    speed: 4000,
+    speed: 1000,
     rows: 2,
     slidesPerRow: 2,
     autoplay: true,
@@ -25,10 +25,11 @@ function ImageSlider() {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
           slidesToScroll: 3,
           infinite: true,
           dots: true,
+          slidesPerRow: 3,
         },
       },
       {
@@ -37,6 +38,7 @@ function ImageSlider() {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
+          slidesPerRow: 3,
         },
       },
       {
@@ -44,6 +46,7 @@ function ImageSlider() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          slidesPerRow: 2,
         },
       },
       {
