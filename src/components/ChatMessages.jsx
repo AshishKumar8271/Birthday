@@ -14,9 +14,7 @@ const ChatMessages = ({ username, greeting, date }) => {
   const getInitialLettersOfName = (name) => {
     const nameParts = name.split(" ");
     const firstNameInitial = nameParts[0] ? nameParts[0][0] : "";
-    const lastNameInitial =
-      nameParts.length > 1 ? nameParts[nameParts.length - 1][0] : "";
-    return firstNameInitial + lastNameInitial;
+    return firstNameInitial;
   };
 
   return (

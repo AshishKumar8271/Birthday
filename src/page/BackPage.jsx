@@ -10,7 +10,7 @@ const BackPage = () => {
     <div>
       <Home />
 
-      <Quotes/>
+      <Quotes />
 
       {/* wave top */}
       <svg
@@ -43,7 +43,9 @@ const BackPage = () => {
 
       <ImageSlider />
 
-      <WishingBox />
+      <div className="mt-28">
+        <WishingBox />
+      </div>
 
       {/* wave top */}
       <svg
