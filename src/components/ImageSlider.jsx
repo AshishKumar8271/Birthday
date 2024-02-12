@@ -59,17 +59,17 @@ function ImageSlider() {
     ],
   };
   return (
-    <div className="slider-container px-2 md:px-12">
+    <div className="slider-container px-2 mt-10 md:px-12">
       <div className="text-center mb-6">
         <h2
-          className="text-4xl font-bold text-purple-600 font-courg"
+          className="text-2xl font-bold text-purple-600 font-courg md:3xl"
           data-aos="fade-down"
           data-aos-duration="1000"
         >
           Let's Celebrate, King of the Day!
         </h2>
         <p
-          className="text-lg text-gray-600 font-courg mt-1"
+          className="text-base text-gray-600 font-courg mt-1"
           data-aos="fade-up"
           data-aos-duration="1000"
         >

@@ -68,14 +68,9 @@ const WishingBox = () => {
   }, []);
 
   return (
-    <div className="mt pt-3 max-w-[900px] md:px-2 shadow-xl rounded-3xl mb-5 mx-4 lg:mx-auto">
-      <h1 className="text-center text-3xl mb-1 font-sans font-bold font-courg">
-        Wishing Box
-      </h1>
-      <div
-        className="w-full p-2 h-[350px] flex flex-col-reverse md:rounded-tl md:rounded-tr md:h-[500px]"
-        style={{ overflowY: "scroll", scrollbarWidth: "none" }}
-      >
+    <div className="pt-3 max-w-[900px] md:px-2 shadow-xl rounded-3xl mb-5 mx-4 lg:mx-auto">
+      <h1 className="text-center text-3xl mb-2 font-sans font-bold font-courg">Wishing Box</h1>
+      <div className="w-full p-2 pt-1 h-[350px] flex flex-col-reverse md:rounded-tl md:rounded-tr md:h-[500px]" style={{ overflowY: "scroll", scrollbarWidth: "none" }}>
         {userDetails.map((data) => (
           <ChatMessages
             key={data._id}

@@ -32,7 +32,7 @@ const ChatMessages = ({ username, greeting, date }) => {
           </span>
         </div>
 
-        <span className="block text-sm my-2 text-gray-600 font-courg">{greeting}</span>
+        <span className="block text-sm my-1 text-gray-600 font-courg">{greeting}</span>
       </div>
     </div>
   );
