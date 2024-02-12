@@ -99,11 +99,7 @@ const WishingBox = () => {
             placeholder="Send your greetings"
             required ref={emptyGreet}
           />
-          {isError ? (
-            <p className="text-sm text-red-700 ml-1">{errorMessage}</p>
-          ) : (
-            ""
-          )}
+          
         </div>
         <button
           type="button"
@@ -112,7 +108,13 @@ const WishingBox = () => {
         >
           Send
         </button>
+        
       </form>
+      {isError ? (
+            <p className="text-xs w-full text-red-700 pl-4 mb-2 -mt-1">{errorMessage}</p>
+          ) : (
+            ""
+          )}
     </div>
   );
 };

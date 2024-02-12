@@ -18,7 +18,7 @@ const ChatMessages = ({ username, greeting, date }) => {
   };
 
   return (
-    <div className="mt-2 flex gap-2 bg-blue-50 p-2 rounded-lg shadow-md">
+    <div className="mt-2 flex gap-2 bg-blue-100 p-2 rounded-lg shadow-md">
       <div className="h-6 w-6 bg-blue-500 text-white rounded-full flex justify-center items-center text-[11px] font-bold">
         {getInitialLettersOfName(username).toUpperCase()}
       </div>
