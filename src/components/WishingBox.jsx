@@ -41,7 +41,7 @@ const WishingBox = () => {
   }, []);
 
   return (
-    <div className="mt-8 pt-3 max-w-[500px] md:px-2 shadow-xl rounded-3xl mb-5 mx-4 sm2:mx-auto ">
+    <div className="mt-8 pt-3 max-w-[500px] md:px-2 shadow-xl rounded-3xl mb-5 mx-4">
       <h1 className="text-center text-3xl mb-1 font-sans font-bold font-courg">Wishing Box</h1>
       <div className="w-full p-2 h-[300px] flex flex-col-reverse md:rounded-tl md:rounded-tr " style={{ overflowY: "scroll", scrollbarWidth: "none" }}>
         {userDetails.map((data) => (

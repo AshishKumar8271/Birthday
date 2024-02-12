@@ -43,7 +43,7 @@ const BackPage = () => {
 
       <ImageSlider />
 
-      <div className="mt-28">
+      <div className="mt-28 flex items-center justify-center">
         <WishingBox />
       </div>
 

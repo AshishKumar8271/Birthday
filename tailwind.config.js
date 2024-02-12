@@ -5,12 +5,6 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-
-
-    screens: {
-      'sm2': '530px',
-    },
-
     extend: {
       keyframes: {
         wiggle: {
