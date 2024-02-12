@@ -7,25 +7,25 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col justify-between items-center md:flex-row ">
         <div className="text-center md:text-left">
           <h3 className="text-lg font-semibold">Contact Us</h3>
-          <p className="text-sm">Email: example@example.com</p>
+          <p className="text-sm text-nowrap">Email: example@example.com</p>
           <p className="text-sm">Phone: +1234567890</p>
         </div>
         <div className="flex mt-4 md:mt-0">
           <a
             href="#"
-            className="text-lg mx-2 hover:text-gray-200 transition-colors duration-300"
+            className="text-lg mx-2 hover:text-gray-200 transition-colors duration-300 text-nowrap"
           >
             Home
           </a>
           <a
             href="#"
-            className="text-lg mx-2 hover:text-gray-200 transition-colors duration-300"
+            className="text-lg mx-2 hover:text-gray-200 transition-colors duration-300 text-nowrap"
           >
             About Us
           </a>
           <a
             href="#"
-            className="text-lg mx-2 hover:text-gray-200 transition-colors duration-300"
+            className="text-lg mx-2 hover:text-gray-200 transition-colors duration-300 text-nowrap"
           >
             Contact Us
           </a>
