@@ -15,7 +15,7 @@ function ImageSlider() {
     infinite: true,
     centerPadding: "0px",
     slidesToShow: 2,
-    speed: 1000,
+    speed: 500,
     rows: 2,
     slidesPerRow: 2,
     autoplay: true,
@@ -63,15 +63,15 @@ function ImageSlider() {
     <div className="slider-container px-2">
       <div className="text-center mb-6">
         <h2
-          className="text-xl md:text-4xl font-bold text-purple-600 font-courg"
-          data-aos="fade-left"
+          className="text-4xl font-bold text-purple-600 font-courg"
+          data-aos="fade-down"
           data-aos-duration="1000"
         >
           Let's Celebrate, King of the Day!
         </h2>
         <p
           className="text-lg text-gray-600 font-courg mt-1"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-duration="1000"
         >
           Get ready for a day filled with fun, surprises, and lots of cake!

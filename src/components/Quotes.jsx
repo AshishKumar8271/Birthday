@@ -2,7 +2,7 @@ import React from 'react'
 
 const Quotes = () => {
   return (
-    <article className='p-4'>
+    <article className='p-4 mt-6'>
         <div className='mb-8 text-green-600 font-bold font-courg text-xl text-left' data-aos = "fade-right" data-aos-duration = "1500">
         <p className='w-11/12'>"Count your age by friends, not years. Count your life by smiles, not tears." — John Lennon</p>
         </div>
