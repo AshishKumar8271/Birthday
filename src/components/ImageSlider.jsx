@@ -13,10 +13,10 @@ function ImageSlider() {
     className: "center",
     centerMode: true,
     infinite: true,
-    centerPadding: "60px",
+    centerPadding: "0px",
     slidesToShow: 2,
-    speed: 2000,
-    rows: 3,
+    speed: 4000,
+    rows: 2,
     slidesPerRow: 2,
     autoplay: true,
     focusOnSelect: true,
@@ -34,9 +34,9 @@ function ImageSlider() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
       {
@@ -51,12 +51,13 @@ function ImageSlider() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          slidesPerRow: 1,
         },
       },
     ],
   };
   return (
-    <div className="slider-container px-44">
+    <div className="slider-container px-2">
       <div className="text-center mb-6">
         <h2
           className="text-xl md:text-4xl font-bold text-purple-600 font-courg"
