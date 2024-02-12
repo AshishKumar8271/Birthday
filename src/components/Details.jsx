@@ -56,26 +56,26 @@ const Details = () => {
     <section className="bg-[#71bdf0] text-white font-semibold text-center -mt-1 overflow-x-hidden font-ubuntu">
       {/* Timer */}
       <div>
-        <h2>Time to Event</h2>
+        <h2 className="mb-1 md:text-lg">Time to Event</h2>
         <div className="grid grid-cols-4 w-80 border-2 rounded-lg mx-auto mb-3">
           <div className="flex justify-center items-baseline border-r-2 py-2 pr-2">
             <h3 className="text-xl mr-0.5">{timeLeft.days}</h3>
-            <small>days</small>
+            <small className="text-xs md:text-sm">days</small>
           </div>
 
           <div className="flex justify-center items-baseline border-r-2 py-2 pr-2">
             <h3 className="text-xl mr-0.5">{timeLeft.hours}</h3>
-            <small>hrs</small>
+            <small className="text-xs md:text-sm">hrs</small>
           </div>
 
           <div className="flex justify-center items-baseline border-r-2 py-2 pr-2">
             <h3 className="text-xl mr-0.5">{timeLeft.minutes}</h3>
-            <small>min</small>
+            <small className="text-xs md:text-sm">min</small>
           </div>
 
           <div className="flex justify-center items-baseline py-2 pr-2">
             <h3 className="text-xl mr-0.5">{timeLeft.seconds}</h3>
-            <small>sec</small>
+            <small className="text-xs md:text-sm">sec</small>
           </div>
         </div>
       </div>
@@ -83,21 +83,21 @@ const Details = () => {
       {/* Event timing and address */}
       <div className="">
         <div
-          className="text-center text-white font-semibold overflow-x-hidden"
+          className="text-center text-white font-semibold overflow-x-hidden my-4"
           data-aos="fade-left"
           data-aos-duration="1000"
         >
-          <h3>Time for Event: </h3>
-          <p>13 Feb 2024 8:00 PM</p>
+          <h3 className="md:text-lg">Time for Event: </h3>
+          <p className="md:text-base italic font-normal tracking-wide">13 Feb 2024 8:00 PM</p>
         </div>
         <div
-          className="mt-10 mb-3 text-center text-white font-semibold overflow-x-hidden"
+          className="text-center text-white font-semibold overflow-x-hidden"
           data-aos="fade-right"
           data-aos-duration="1500"
         >
-          <h3>Address:</h3>
-          <p className="mb-2">V.P.O ABC, Teh: DEF , Dist: GHI, 233055</p>
-          <div className="flex items-center justify-center pb-6 text-white text-sm ">
+          <h3 className="md:text-lg">Address:</h3>
+          <p className="mb-2 text-sm md:text-base italic font-normal tracking-wide">V.P.O ABC, Teh: DEF , Dist: GHI, 233055</p>
+          <div className="flex items-center justify-center pb-6 text-white text-xs ">
             <a
               className="btn-grad flex items-center font-semibold"
               href="https://maps.app.goo.gl/1ubnrW58RABN3r1p9"
