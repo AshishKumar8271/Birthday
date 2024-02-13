@@ -6,7 +6,7 @@ import cake from "../assets/img/cake.gif";
 const FrontPage = () => {
   const dispatch = useDispatch();
   return (
-    <div className="min-h-screen p-5 pt-12 flex flex-col items-center justify-center">
+    <div className="h-screen p-5 pt-12 flex flex-col items-center justify-center">
       <img src={laddi} className='' alt="" />
       <div>
         <p className='text-center mt-5 font-semibold text-pink-700'>Birthday party Invitation by</p>
