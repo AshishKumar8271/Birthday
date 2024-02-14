@@ -7,20 +7,13 @@ import Balloon from "./Balloon";
 const Home = () => {
   return (
     <div className="box">
-      <div className="six">
-        <motion.img
-          animate={{ rotateZ: 360 }}
-          transition={{ duration: 1, ease: "easeInOut" }}
-          src={lydia2}
-          alt=""
-          className="lydia-dp h-40"
-          data-node-name="imagePath"
-        />
+      <div className="six flex items-center justify-center flex-col">
+        <div className="hero-img"></div>
         <div className="wish">
-          <h3 className="wish-hbd" data-node-name="wishHeading">
+          <h3 className="wish-hbd text-blue-800" data-node-name="wishHeading">
             Happy Birthday!
           </h3>
-          <h5 data-node-name="wishText">
+          <h5 data-node-name="wishText text-blue-600">
             Come join the fun and make it a celebration to remember! ;)
           </h5>
         </div>

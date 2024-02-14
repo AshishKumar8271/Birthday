@@ -98,6 +98,43 @@ html {
     font-size: 2rem;
     margin: 10px 0 0;
   }
+
+.hero-img {
+    -webkit-animation: morph 8s ease-in-out infinite;
+    animation: morph 8s ease-in-out infinite;
+    background-image: url(/src/assets/img/lydia2.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 120% 120%; 
+    border: 3px solid #2d2e32;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    transition: all 1s ease-in-out;
+    position: rel;
+    width: 30rem;
+    height: 28rem;
+}
+
+@media screen and (max-width: 480px) {
+  .hero-img {
+    background-size: 120% 120%; 
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+
  
   /* Media Queries */
   @media screen and (max-height: 1000px) {
