@@ -11,7 +11,7 @@ const Balloon = () => {
         <motion.img
           initial={{ y: 550 }}
           animate={{
-            y: [850, 830, 850],
+            y: [1750, 1730, 1750],
             transition: { duration: 3, repeat: Infinity },
           }}
           transition={{ duration: 1, ease: "easeInOut" }}
@@ -28,7 +28,7 @@ const Balloon = () => {
         <motion.img
           initial={{ y: 660 }}
           animate={{
-            y: [720, 690, 720],
+            y: [1750, 1730, 1750],
             transition: { duration: 3, repeat: Infinity },
           }}
           transition={{ duration: 1, ease: "easeInOut" }}
@@ -38,7 +38,7 @@ const Balloon = () => {
         <motion.img
           initial={{ y: 700 }}
           animate={{
-            y: [750, 730, 750],
+            y: [1750, 1730, 1750],
             transition: { duration: 3, repeat: Infinity },
           }}
           transition={{ duration: 2, ease: "easeInOut" }}
@@ -83,7 +83,7 @@ const Balloon = () => {
         <motion.img
           initial={{ y: 700 }}
           animate={{
-            y: [770, 750, 770],
+            y: [1750, 1730, 1750],
             transition: { duration: 3, repeat: Infinity },
           }}
           transition={{ duration: 1, ease: "easeInOut" }}
@@ -93,7 +93,7 @@ const Balloon = () => {
         <motion.img
           initial={{ y: 700 }}
           animate={{
-            y: [750, 730, 750],
+            y: [1750, 1730, 1750],
             transition: { duration: 3, repeat: Infinity },
           }}
           transition={{ duration: 2, ease: "easeInOut" }}
@@ -110,7 +110,7 @@ const Balloon = () => {
         <motion.img
           initial={{ y: 700 }}
           animate={{
-            y: [750, 730, 750],
+            y: [1750, 1730, 1750],
             transition: { duration: 3, repeat: Infinity },
           }}
           transition={{ duration: 2, ease: "easeInOut" }}
@@ -127,7 +127,7 @@ const Balloon = () => {
         <motion.img
           initial={{ y: 500 }}
           animate={{
-            y: [770, 750, 770],
+            y: [1750, 1730, 1750],
             transition: { duration: 3, repeat: Infinity },
           }}
           transition={{ duration: 2, ease: "easeInOut" }}
@@ -221,7 +221,7 @@ const Balloon = () => {
         <motion.img
           initial={{ y: 700 }}
           animate={{
-            y: [800, 780, 800],
+            y: [1750, 1730, 1750],
             transition: { duration: 3, repeat: Infinity },
           }}
           transition={{ duration: 1, ease: "easeInOut" }}
@@ -245,7 +245,7 @@ const Balloon = () => {
         <motion.img
           initial={{ y: 700 }}
           animate={{
-            y: [800, 780, 800],
+            y: [1750, 1730, 1750],
             transition: { duration: 3, repeat: Infinity },
           }}
           transition={{ duration: 2, ease: "easeInOut" }}
@@ -262,7 +262,7 @@ const Balloon = () => {
         <motion.img
           initial={{ y: 700 }}
           animate={{
-            // y: [50, 30, 50],
+            y: [1750, 1730, 1750],
             transition: { duration: 3, repeat: Infinity },
           }}
           transition={{ duration: 2, ease: "easeInOut" }}
